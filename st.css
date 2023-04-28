@@ -195,3 +195,15 @@ a:hover {text-decoration: none; color: #808080
   padding-left: 55px;
   padding-right: 55px;
 }
+
+.hover-image-scale {
+  display: inline-block;
+  overflow: hidden;
+}
+.hover-image-scale img {
+  transition: 1s;
+  display: block;
+}
+.hover-image-scale img:hover {
+  transform: scale(1.2);
+}
